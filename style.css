@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+#header{
+    background-color: rgb(2, 13, 116);
+    height: 35%;
+    width: 100%;
+    position: fixed;
+}
+
+#topMostHead{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-between;
+    
+}
+.headerIcons{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.headerIcons i{
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+    position: fixed;
+    right: 10px;
+}
+
+.headerIcons img{
+    width: 35p;
+    height: 35px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+#headerContent{
+    width: 100%;
+    height: 72%;
+    display: flex;
+}
+#headerContent1{
+    width: 65%;
+    height: 100%;
+}
+#headerContent2{
+    width: 35%;
+    height: 100%;
+}
+#headerContent1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-top: 12px;
+    margin-left: 20px;
+    object-fit: cover;
+    display: inline-block;
+}
+#headerContent2 img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 130px;
+    right: 25px;
+    rotate: -20deg;
+}
+
+
+#page{
+    background-color: rgb(255, 255, 255);
+    height: 65%;
+    width: 100%;
+}
+
+
+
