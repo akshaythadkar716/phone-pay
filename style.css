@@ -82,7 +82,7 @@ html,body{
 #headerContent2 img{
     width: 120px;
     height: 120px;
-    position: absolute;
+    position: fixed;
     top: 95px;
     right: 25px;
     rotate: -20deg;
