@@ -87,7 +87,7 @@ html,body{
     top: 95px;
     right: 25px;
     rotate: -20deg;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 280px;
 }
 
@@ -141,7 +141,7 @@ html,body{
 #img-container a{
     position: absolute;
     /* Adjust these values */
-    top: 600px;   /* move vertically until it reaches below GO BACK */
+    top: 430px;   /* move vertically until it reaches below GO BACK */
     right: 153px;  /* stick to right side */
     padding: 8px 12px;
     text-decoration: none;
